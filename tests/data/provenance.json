@@ -1,0 +1,15 @@
+{
+  "origin": "approved frozen-background August 26 daycurve and independent raw FAST/gain audits",
+  "source_raw_fits": "spec-pb-corr/data/20260826.fits",
+  "source_expected_npz": "spec-pb-corr/recon/flatk/daycurve_3ch_20260826.npz",
+  "observed_channels": 3,
+  "native_time_samples": 310,
+  "synthetic": false,
+  "sha256": {
+    "/Users/peijinz/dev/spec-pb-corr/data/20260826.fits": "f2adc365ec43e15596edd1089009288b261172273fe3280714ff6146f2cc13e2",
+    "/Users/peijinz/dev/spec-pb-corr/recon/flatk/daycurve_3ch_20260826.npz": "a973b28638a9b43c03c94b8a775396f611e603fdff6a37079d050347b0da5848",
+    "/Users/peijinz/.hermes/cache/scratch/lwabeamcal_memo178_audit.npz": "335e60e6cfc98e05c7ef2db45c74b7a7f283749523267846608102faccac8b45",
+    "/Users/peijinz/.hermes/cache/scratch/lwabeamcal_lwapb_audit.npz": "34734de04cfb4ab4fac210d614908b21594a87e87bc6ce5a966b5e99dabcd580",
+    "/Users/peijinz/dev/lwabeamcal/tests/data/real_20260826.npz": "83b858216f15bb8742afbd4c27da495fb9c2fa88b6312dcb015bef1ec5ac76f9"
+  }
+}

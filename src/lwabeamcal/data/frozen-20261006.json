@@ -1,0 +1,12 @@
+{
+  "model_id": "flatk-imaging-20261006",
+  "k": 1.1,
+  "n50_jy": 288.95515757076816,
+  "exponent": 3.5547074905328397,
+  "reference_mhz": 50.0,
+  "training_days": ["20260615", "20260715", "20260915"],
+  "held_out_days": ["20260825", "20260826"],
+  "fit_domain_mhz": [40.0, 85.0],
+  "benchmark_mhz": [40.0, 80.0],
+  "status": "empirical imaging-trained background; absolute calibration unverified"
+}

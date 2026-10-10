@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lwabeamcal"
+version = "0.1.0"
+description = "OVRO-LWA beamformed solar spectra: frozen sky-background subtraction and primary-beam gain correction"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Peijin Zhang", email = "pjer1316@icloud.com"}]
+dependencies = ["numpy>=1.24", "astropy>=6.0"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+lwabeamcal = "lwabeamcal.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+lwabeamcal = ["data/*.json", "data/*.md"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

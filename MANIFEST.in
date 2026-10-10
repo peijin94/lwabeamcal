@@ -1,0 +1,3 @@
+include README.md CHANGELOG.md THIRD_PARTY_NOTICES.md notes.md mem.md VERIFICATION.md
+recursive-include tests *.py *.npz *.json
+recursive-include examples *.py
