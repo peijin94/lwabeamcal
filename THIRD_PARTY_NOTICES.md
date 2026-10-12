@@ -8,6 +8,8 @@ numerical reference are documented in that research file and its tests.
 
 No new license has been assigned to the combined distribution, and no claim
 is made that the upstream code/coefficients are MIT/BSD or public domain.
-Verify ownership and redistribution terms before choosing a package license
-and publishing. This build is for the user's local/internal project use.
+The repository was made public on GitHub on 2026-10-12 at the owner's explicit
+request. Public visibility is not an upstream licensing clearance or a grant
+of redistribution rights. Ownership and redistribution terms remain under
+review before choosing a distribution license or publishing to PyPI.
 NumPy and Astropy are dependencies, not copied into this distribution.

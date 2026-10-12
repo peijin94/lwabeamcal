@@ -23,8 +23,17 @@ python -m pip install -e '.[test]'
 lwabeamcal --help
 ```
 
-Built wheel and source archives are in `dist/`. No dependency on the research
-checkout (`spec-pb-corr`), its scripts, `lwasolarproc`, or its absolute paths.
+Repository: https://github.com/peijin94/lwabeamcal
+
+Install directly from GitHub:
+
+```bash
+python -m pip install "git+https://github.com/peijin94/lwabeamcal.git"
+```
+
+Wheel and source archives can be built locally into `dist/`; build artifacts
+are not tracked in Git. No dependency on the research checkout (`spec-pb-corr`),
+its scripts, `lwasolarproc`, or its absolute paths.
 
 ## Python API
 
@@ -179,6 +188,8 @@ python -m build
 ```
 
 `notes.md` records verification; `mem.md` records maintenance conventions.
-No PyPI upload/GitHub publication has been performed. Redistribution licensing,
-especially the upstream Memo178 coefficient provenance, must be decided before
-public release; see `THIRD_PARTY_NOTICES.md`.
+The repository was published publicly on GitHub on 2026-10-12 at the owner's
+request, preserving the existing Git history. No PyPI upload has been performed.
+Public visibility does not resolve licensing: no distribution license has been
+assigned, and upstream Memo178 provenance/redistribution terms remain under
+review. See `THIRD_PARTY_NOTICES.md`.

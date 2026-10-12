@@ -44,7 +44,7 @@ Actual held-out August 26 data, 3 channels:
 Package implementation preserves masks and signs but does not solve the
 low-elevation negative residuals, shortwave/RFI pollution, or daily offsets.
 Primary-beam correction is gain division. Licensing remains unassigned;
-no public upload or remote repository has been created.
+at the initial build, no public upload or remote repository had been created.
 
 Python 3.10 / Astropy 6 exposed a real FITS compatibility bug: a full SHA256
 under a long HIERARCH keyword could not fit that version's card formatter.
@@ -57,3 +57,15 @@ model was unsupported by the provider; direct implementation plus explicitly
 pinned local Codex review/fix contexts replaced it. No codex-inti delegation
 was used for this package task. Tests used disposable scratch directories;
 fix-context sandbox tests used a Git-ignored repo-local .cache fallback.
+
+## 2026-10-12 — public GitHub repository
+
+At the owner's explicit request, created https://github.com/peijin94/lwabeamcal
+as a public repository and pushed the existing history without rewriting the
+initial commit `df1845d`. Verified public visibility, default branch `main`, and
+remote/local commit equality. A pattern-based scan of all tracked historical
+blobs found no credential patterns; ignored build artifacts were not uploaded.
+README and third-party notices now distinguish public repository visibility
+from unresolved upstream licensing. No distribution license was assigned,
+no production behavior changed, and no PyPI upload was performed.
+Tracking issue: PZ-15 (In Progress).
